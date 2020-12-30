@@ -5,7 +5,7 @@ export const Navbar = () => {
 return (
 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
-    <Link className="navbar-brand" to="/">
+    <Link className="navbar-brand" to="/heroe-app/marvel">
     <h3 style={{fontFamily:'Lobster'}}>Heroe App</h3>
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
