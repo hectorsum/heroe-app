@@ -5,7 +5,7 @@ import { useHistory } from 'react-router-dom';
 export const LoginScreen = () => {
   let history = useHistory();
   const handleLogin = ()=>{
-    history.replace('/') //Reemplazar en el history la ruta, y cuando quiera salir, ya no va leer el login
+    history.replace('/heroe-app') //Reemplazar en el history la ruta, y cuando quiera salir, ya no va leer el login
   }
   return (
     <div className="container mt-5">
