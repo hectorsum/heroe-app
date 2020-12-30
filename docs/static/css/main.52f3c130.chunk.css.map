@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/not-found/Not-Found.scss"],"names":[],"mappings":"AAAA,WACE,cAAe,CACf,kBAAmB,CACnB,iBAAkB","file":"main.52f3c130.chunk.css","sourcesContent":[".not-found {\r\n  margin: 300px 0;\r\n  letter-spacing: 1px;\r\n  text-align: center;\r\n}"]}
