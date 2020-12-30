@@ -5,6 +5,7 @@ import { MarvelScreen } from '../components/marvel/MarvelScreen'
 import { Navbar } from '../components/ui/Navbar'
 import { DcScreen } from '../components/dc/DcScreen'
 import { SearchScreen } from '../components/search/SearchScreen'
+import NotFound from '../components/not-found/Not-Found'
 export const DashboardRoutes = () => {
   return (
     <>
@@ -16,6 +17,7 @@ export const DashboardRoutes = () => {
           <Route exact path="/dc" component={DcScreen} />
           <Route exact path="/search" component={SearchScreen} />
           <Redirect to="./marvel" />
+          <Route component={NotFound} />
         </Switch>
       </div>
     </>
