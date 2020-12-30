@@ -14,16 +14,16 @@ return (
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
-        <NavLink exact to={"/marvel"} activeClassName="active" className="nav-item nav-link">
+        <NavLink exact to={"/heroe-app/marvel"} activeClassName="active" className="nav-item nav-link">
           Marvel
         </NavLink>
-        <NavLink exact to={"/dc"} activeClassName="active" className="nav-item nav-link">
+        <NavLink exact to={"/heroe-app/dc"} activeClassName="active" className="nav-item nav-link">
           DC
         </NavLink>
-        <NavLink exact to={"/search"} activeClassName="active" className="nav-item nav-link">
+        <NavLink exact to={"/heroe-app/search"} activeClassName="active" className="nav-item nav-link">
           Search
         </NavLink>
-        <NavLink exact to={"/login"} activeClassName="active" className="nav-item nav-link">
+        <NavLink exact to={"/heroe-app/login"} activeClassName="active" className="nav-item nav-link">
           Logout
         </NavLink>
       </ul>
